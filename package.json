@@ -1,0 +1,30 @@
+{
+  "name": "commandlinegame_nodejs",
+  "version": "1.0.0",
+  "description": "Game in Command Line with NodeJs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorMozetic/CommandLineGame_nodeJS.git"
+  },
+  "author": "Igor Mozetic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorMozetic/CommandLineGame_nodeJS/issues"
+  },
+  "homepage": "https://github.com/IgorMozetic/CommandLineGame_nodeJS#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^1.3.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.2",
+    "nanospinner": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
